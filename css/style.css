@@ -1,0 +1,166 @@
+/* CSS Properties */
+body{
+  font-family: 'Montserrat';
+}
+
+h1{
+  font-family: 'Montserrat';
+  font-size:  3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3{
+  text-align: center;
+  color: #333333;
+}
+
+
+
+/* navbar */
+.robust-tech{
+  font-family: Ubuntu;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.navbar{
+  font-family: 'Roboto';
+  padding: 1%;
+}
+.nav-item{
+  font-size: 1.2rem;
+}
+
+
+
+/* title */
+#title{
+  background-color: #b9d7ea;
+  color: white;
+}
+.container-fluid{
+  padding: 4% 10%;
+}
+.nn_brain{
+  width: 100%;
+  height: auto;
+}
+.download{
+  margin: 5% 3% 5% 0;
+  background-color: #769fcd;
+  color: white;
+}
+
+
+
+/* features */
+#features{
+  background-color: #f7fbfc;
+  padding: 5% 10%;
+  text-align: center;
+  color: #769fcd;
+}
+.fea-div{
+  padding: 5%;
+}
+.f{
+  text-align: center;
+  color: #333333;
+}
+.fea-icon{
+  color: #b9d7ea;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.fea-icon:hover{
+  color: #769fcd;
+}
+
+
+
+/* testimonials */
+#testimonials{
+  background-color: #b9d7ea;
+  text-align: center;
+  color: white;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonials-image{
+  width: 20%;
+  border-radius: 100%;
+  padding: 2% 0 2%;
+}
+
+
+
+/* press */
+#press{
+  background-color: #b9d7ea;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+/* pricing */
+#pricing{
+  text-align: center;
+  margin: 5%;
+}
+.pad-col{
+  padding: 3% 1%;
+}
+.signUp:hover{
+  background-color: gray;
+}
+
+
+
+/* cta */
+#cta{
+  background-color: #b9d7ea;
+  padding: 5%;
+  text-align: center;
+  color: white;
+}
+.cta-btn{
+  margin: 2%;
+}
+
+
+
+/* footer */
+#footer{
+  margin: 7%;
+  text-align: center;
+  color: #769fcd;
+}
+.footer-icon{
+  padding: 1%;
+}
+.footer-icon:hover{
+  color: #333333;
+}
+
+
+@media (max-width: 991px){
+  #title{
+    text-align: center;
+  }
+  .nn_brain{
+    width: 70%;
+    height: auto;
+    margin: 5%;
+  }
+}
